@@ -8,8 +8,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
   const dispatch = useDispatch();
 
   const onSubmit = (data) => {
-    dispatch(addTask(data))
-    alert("Done");
+    dispatch(addTask(data));
     reset();
   };
 
