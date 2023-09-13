@@ -69,7 +69,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
             <option value="Md. Hasan Zisan">Md. Hasan Zisan</option>
             <option value="Mohammad Dihan">Mohammad Dihan</option>
             <option value="Mynul Hasan">Mynul Hasan</option>
-            <option selected value="Md. Ibrahim Siddiquee">Md. Ibrahim Siddiquee</option>
+            <option value="Md. Ibrahim Siddiquee">Md. Ibrahim Siddiquee</option>
             <option value="Shahidul Chowdhury Sohel">
               Shahidul Chowdhury Sohel
             </option>
@@ -85,7 +85,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
             id="priority"
           >
             <option value="high">High</option>
-            <option selected value="medium">Medium</option>
+            <option value="medium">Medium</option>
             <option value="low">Low</option>
           </select>
         </div>
